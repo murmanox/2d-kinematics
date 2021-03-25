@@ -24,5 +24,3 @@ RunService.RenderStepped.Connect((dt) => {
 	tentacles.forEach((tentacle) => tentacle.show(canvas))
 	goal.show(canvas)
 })
-
-test
